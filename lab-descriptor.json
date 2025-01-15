@@ -42,14 +42,14 @@
         {
             "name": "Performance measurement and analysis of single phase AC-DC controlled bridge rectifier with different filters",
             "short-name": "controlled-bridge-rectifier-different-filters",
-            "repo": "https://github.com/virtual-labs/exp-controlled-bridge-rectifier-with-different-filters-iitd ",
+            "repo": "https://github.com/virtual-labs/exp-controlled-bridge-rectifier-with-different-filters-iitd",
             "tag": "v1.0.0",
             "deploy": true
         },
         {
             "name": "Performance measurement and analysis of DC-DC buck regulator",
             "short-name": "buck-regulator",
-            "repo": " https://github.com/virtual-labs/exp-buck-regulator-iitd",
+            "repo": "https://github.com/virtual-labs/exp-buck-regulator-iitd",
             "tag": "v1.0.0",
             "deploy": true
         },
