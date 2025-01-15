@@ -1,141 +1,106 @@
 {
-  "broadArea": {
-    "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
-  },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
-    {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
+    "broadArea": {
+        "name": "Electrical Engineering",
+        "link": "https://www.vlab.co.in/broad-area-electrical-engineering",
+        "code": "EE"
     },
-    {
-      "sect-name": "Graphs",
-      "experiments": [
+    "lab": "Power Electronics - 2",
+    "lab_display_name": "Power Electronics – 2",
+    "phase": "3-ext",
+    "collegeName": "IITD",
+    "baseUrl": "pe2-iitd.vlabs.ac.in",
+    "introduction": "Power electronics is the basis for attainment of efficient and reliable power supply system.The power electronic circuits operation along with suitable control mechanism is crucial in powering all electronic circuits including integrated circuits (ICs), ICT equipment, LAN, smartphones, consumer electronic systems, computers and all engineering systems needing electrical power for their functioning. Also, these power electronic systems find applications in wide variety of engineering systems used in transportation, aerospace, defence, advanced automotive systems, bio-medical equipment, etc,.<br><br> In this virtual lab course students will gain a comprehensive understanding of basic power electronics subject. Each experiment includes a brief theoretical foundation followed by the main virtual experiment designed to emulate the actual experimental environment as closely as possible. Currently, this repository composed with 10 experiments. The first two experiments deal with the tracing of various characteristics of high frequency switching devices MOSFET and IGBT. Next two experiments cover the topic of single phase controlled AC-DC rectifiers with different loads and filter structures. The switching action transforms the input supply and this phenomenon can easily be visualized by the students by plotting various truncated voltage and current waveforms at different stages. This is followed by testing the rectifiers performance upon inclusion of filters (i.e. ripple reduction and smoothening of these waveforms).<br><br> Subsequently, three experiments pertaining to DC-DC conversion are formulated wherein students are able to understand easily the basic bucking and boosting of voltages. These two experiments are framed with non-isolated topologies while the third experiment is on isolated push-pull converter. In all these virtual experiments, various voltage and current waveforms for different supply input voltages and duty cycles need to be plotted. In addition to voltage gain variation, the effect of load and other parameters like duty ratio on the efficiency and component stress are displayed graphically. The last two experiments essentially deal with the realization of controllable AC voltage from the given utility AC supply (or) DC Battery source. The final experiment is the analysis of DC-AC single phase IGBT inverter controlled using various PWM techniques. Provision is given to export all the observations (*.pdf format) including the plots and bar graphs at the end of each stage of all the experiments. These recorded observations are useful for critical analysis in offline mode as per the student convenience.",
+    "experiments": [
         {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
+            "name": "Characteristics of high frequency MOSFET switching power device",
+            "short-name": "mosfet-switching-power",
+            "repo": "https://github.com/virtual-labs/exp-mosfet-switching-power-device-iitd",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
+            "name": "Characteristics of high frequency IGBT switching power device",
+            "short-name": "igbt-switching-power",
+            "repo": "https://github.com/virtual-labs/exp-igbt-switching-power-device-iitd",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
+            "name": "Performance measurement and analysis of single phase AC-DC uncontrolled bridge rectifier with Capacitive filter",
+            "short-name": "uncontrolled-bridge-rectifier",
+            "repo": "https://github.com/virtual-labs/exp-uncontrolled-bridge-rectifier-with-capacitive-filter-iitd",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
+            "name": "Performance measurement and analysis of single phase AC-DC controlled bridge rectifier with R and RL Load",
+            "short-name": "controlled-bridge-rectifier-rl",
+            "repo": "https://github.com/virtual-labs/exp-controlled-bridge-rectifier-with-r-and-rl-load-iitd",
+            "tag": "v1.0.0",
+            "deploy": true
         },
         {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
+            "name": "Performance measurement and analysis of single phase AC-DC controlled bridge rectifier with different filters",
+            "short-name": "controlled-bridge-rectifier-different-filters",
+            "repo": "https://github.com/virtual-labs/exp-controlled-bridge-rectifier-with-different-filters-iitd ",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Performance measurement and analysis of DC-DC buck regulator",
+            "short-name": "buck-regulator",
+            "repo": " https://github.com/virtual-labs/exp-buck-regulator-iitd",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Performance measurement and analysis of DC-DC boost regulator",
+            "short-name": "boost-regulator",
+            "repo": "https://github.com/virtual-labs/exp-boost-regulator-iitd",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Performance measurement and analysis of single phase AC voltage controller",
+            "short-name": "single-phase-ac-voltage",
+            "repo": "https://github.com/virtual-labs/exp-single-phase-ac-voltage-controller-iitd",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Performance measurement and analysis of isolated DC-DC push-pull regulator",
+            "short-name": "push-pull-regulator",
+            "repo": "https://github.com/virtual-labs/exp-push-pull-regulator-iitd",
+            "tag": "v1.0.0",
+            "deploy": true
+        },
+        {
+            "name": "Performance measurement and analysis of 1-phase IGBT inverter with sinusoidal PWM control",
+            "short-name": "sinusoidal-pwm-control",
+            "repo": "https://github.com/virtual-labs/exp-sinusoidal-pwm-control-iitd",
+            "tag": "v1.0.0",
+            "deploy": true
         }
-      ]
-    }
-  ],
-  "targetAudience": {
-    "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
     ],
-    "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
-    ]
-  },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
-  "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
-    "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
-    ]
-
- 
+    "targetAudience": {
+        "UG": [
+            " B.E/B.Tech – (Electrical/ Electronics/Electrical Instrumentation and Allied Engineering streams"
+        ],
+        "PG": [
+            "M.E/M.S/M.Tech (Power Electronics/ Power Electronics and Drives/ Industrial Electronics/ Power and Industrial Drives/ Allied Engineering streams"
+        ]
+    },
+    "objective": "To supplement the Theory Course of Power Electronics with Simulation and Laboratory experiments.",
+    "courseAlignment": {
+        "description": "",
+        "universities": [
+            "Dept. of Electrical Engineering, National Institute of Technology Warangal",
+            "Dept. of Electrical Engineering, National Institute of Technology Calicut",
+            "Dept. of Electrical Engineering, National Institute of Technology Hamirpur",
+            "Dept. of Electrical Engineering, National Institute of Technology Kurkshetra",
+            "Dept. of Electrical Engineering, National Institute of Technology Warangal",
+            "JNT University",
+            "VR Siddhartha Engineering College"
+        ]
+    }
 }
