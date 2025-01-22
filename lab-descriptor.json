@@ -1,106 +1,106 @@
 {
-    "broadArea": {
-        "name": "Electrical Engineering",
-        "link": "https://www.vlab.co.in/broad-area-electrical-engineering",
-        "code": "EE"
+  "broadArea": {
+    "name": "Electrical Engineering",
+    "link": "https://www.vlab.co.in/broad-area-electrical-engineering",
+    "code": "EE"
+  },
+  "lab": "Power Electronics - 2",
+  "lab_display_name": "Power Electronics - 2",
+  "phase": "3-ext",
+  "collegeName": "IITD",
+  "baseUrl": "pe2-iitd.vlabs.ac.in",
+  "introduction": "<div class='slideshow-container'> <div class='mySlides fade'> <div class='numbertext'>1 / 7</div> <img src='./images/gif1.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>2 / 7</div> <img src='./images/gif2.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>3 / 7</div> <img src='./images/gif3.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>4 / 7</div> <img src='./images/gif4.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>5 / 7</div> <img src='./images/gif5.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>6 / 7</div> <img src='./images/gif6.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>8 / 7</div> <img src='./images/gif7.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <a class='prev' onclick='plusSlides(-1)'>â®</a> <a class='next' onclick='plusSlides(1)'>â¯</a> </div> <br> <div style='text-align:center'> <span class='dot' onclick='currentSlide(1)'></span> <span class='dot' onclick='currentSlide(2)'></span> <span class='dot' onclick='currentSlide(3)'></span> <span class='dot' onclick='currentSlide(4)'></span> <span class='dot' onclick='currentSlide(5)'></span> <span class='dot' onclick='currentSlide(6)'></span> <span class='dot' onclick='currentSlide(7)'></span> </div> <script> let slideIndex = 0; showSlides(); function showSlides() { let i; let slides = document.getElementsByClassName('mySlides'); let dots = document.getElementsByClassName('dot'); for (i = 0; i < slides.length; i++) { slides[i].style.display = 'none'; } slideIndex++; if (slideIndex > slides.length) {slideIndex = 1} for (i = 0; i < dots.length; i++) { dots[i].className = dots[i].className.replace(' active', ''); } slides[slideIndex-1].style.display = 'block'; dots[slideIndex-1].className += ' active'; setTimeout(showSlides, 7000); // Change image every 3 seconds } </script>Power electronics is the basis for attainment of efficient and reliable power supply system.The power electronic circuits operation along with suitable control mechanism is crucial in powering all electronic circuits including integrated circuits (ICs), ICT equipment, LAN, smartphones, consumer electronic systems, computers and all engineering systems needing electrical power for their functioning. Also, these power electronic systems find applications in wide variety of engineering systems used in transportation, aerospace, defence, advanced automotive systems, bio-medical equipment, etc,.<br><br> In this virtual lab course students will gain a comprehensive understanding of basic power electronics subject. Each experiment includes a brief theoretical foundation followed by the main virtual experiment designed to emulate the actual experimental environment as closely as possible. Currently, this repository composed with 10 experiments. The first two experiments deal with the tracing of various characteristics of high frequency switching devices MOSFET and IGBT. Next two experiments cover the topic of single phase controlled AC-DC rectifiers with different loads and filter structures. The switching action transforms the input supply and this phenomenon can easily be visualized by the students by plotting various truncated voltage and current waveforms at different stages. This is followed by testing the rectifiers performance upon inclusion of filters (i.e. ripple reduction and smoothening of these waveforms).<br><br> Subsequently, three experiments pertaining to DC-DC conversion are formulated wherein students are able to understand easily the basic bucking and boosting of voltages. These two experiments are framed with non-isolated topologies while the third experiment is on isolated push-pull converter. In all these virtual experiments, various voltage and current waveforms for different supply input voltages and duty cycles need to be plotted. In addition to voltage gain variation, the effect of load and other parameters like duty ratio on the efficiency and component stress are displayed graphically. The last two experiments essentially deal with the realization of controllable AC voltage from the given utility AC supply (or) DC Battery source. The final experiment is the analysis of DC-AC single phase IGBT inverter controlled using various PWM techniques. Provision is given to export all the observations (*.pdf format) including the plots and bar graphs at the end of each stage of all the experiments. These recorded observations are useful for critical analysis in offline mode as per the student convenience.",
+  "experiments": [
+    {
+      "name": "Characteristics of high frequency MOSFET switching power device",
+      "short-name": "mosfet-switching-power",
+      "repo": "https://github.com/virtual-labs/exp-mosfet-switching-power-device-iitd",
+      "tag": "v1.0.1",
+      "deploy": true
     },
-    "lab": "Power Electronics - 2",
-    "lab_display_name": "Power Electronics - 2",
-    "phase": "3-ext",
-    "collegeName": "IITD",
-    "baseUrl": "pe2-iitd.vlabs.ac.in",
-    "introduction": "<div class='slideshow-container'> <div class='mySlides fade'> <div class='numbertext'>1 / 7</div> <img src='./images/gif1.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>2 / 7</div> <img src='./images/gif2.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>3 / 7</div> <img src='./images/gif3.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>4 / 7</div> <img src='./images/gif4.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>5 / 7</div> <img src='./images/gif5.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>6 / 7</div> <img src='./images/gif6.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <div class='mySlides fade'> <div class='numbertext'>8 / 7</div> <img src='./images/gif7.gif' style='width:1010px; height: 550px;'> <div class='text'></div> </div> <a class='prev' onclick='plusSlides(-1)'>❮</a> <a class='next' onclick='plusSlides(1)'>❯</a> </div> <br> <div style='text-align:center'> <span class='dot' onclick='currentSlide(1)'></span> <span class='dot' onclick='currentSlide(2)'></span> <span class='dot' onclick='currentSlide(3)'></span> <span class='dot' onclick='currentSlide(4)'></span> <span class='dot' onclick='currentSlide(5)'></span> <span class='dot' onclick='currentSlide(6)'></span> <span class='dot' onclick='currentSlide(7)'></span> </div> <script> let slideIndex = 0; showSlides(); function showSlides() { let i; let slides = document.getElementsByClassName('mySlides'); let dots = document.getElementsByClassName('dot'); for (i = 0; i < slides.length; i++) { slides[i].style.display = 'none'; } slideIndex++; if (slideIndex > slides.length) {slideIndex = 1} for (i = 0; i < dots.length; i++) { dots[i].className = dots[i].className.replace(' active', ''); } slides[slideIndex-1].style.display = 'block'; dots[slideIndex-1].className += ' active'; setTimeout(showSlides, 7000); // Change image every 3 seconds } </script>Power electronics is the basis for attainment of efficient and reliable power supply system.The power electronic circuits operation along with suitable control mechanism is crucial in powering all electronic circuits including integrated circuits (ICs), ICT equipment, LAN, smartphones, consumer electronic systems, computers and all engineering systems needing electrical power for their functioning. Also, these power electronic systems find applications in wide variety of engineering systems used in transportation, aerospace, defence, advanced automotive systems, bio-medical equipment, etc,.<br><br> In this virtual lab course students will gain a comprehensive understanding of basic power electronics subject. Each experiment includes a brief theoretical foundation followed by the main virtual experiment designed to emulate the actual experimental environment as closely as possible. Currently, this repository composed with 10 experiments. The first two experiments deal with the tracing of various characteristics of high frequency switching devices MOSFET and IGBT. Next two experiments cover the topic of single phase controlled AC-DC rectifiers with different loads and filter structures. The switching action transforms the input supply and this phenomenon can easily be visualized by the students by plotting various truncated voltage and current waveforms at different stages. This is followed by testing the rectifiers performance upon inclusion of filters (i.e. ripple reduction and smoothening of these waveforms).<br><br> Subsequently, three experiments pertaining to DC-DC conversion are formulated wherein students are able to understand easily the basic bucking and boosting of voltages. These two experiments are framed with non-isolated topologies while the third experiment is on isolated push-pull converter. In all these virtual experiments, various voltage and current waveforms for different supply input voltages and duty cycles need to be plotted. In addition to voltage gain variation, the effect of load and other parameters like duty ratio on the efficiency and component stress are displayed graphically. The last two experiments essentially deal with the realization of controllable AC voltage from the given utility AC supply (or) DC Battery source. The final experiment is the analysis of DC-AC single phase IGBT inverter controlled using various PWM techniques. Provision is given to export all the observations (*.pdf format) including the plots and bar graphs at the end of each stage of all the experiments. These recorded observations are useful for critical analysis in offline mode as per the student convenience.",
-    "experiments": [
-        {
-            "name": "Characteristics of high frequency MOSFET switching power device",
-            "short-name": "mosfet-switching-power",
-            "repo": "https://github.com/virtual-labs/exp-mosfet-switching-power-device-iitd",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Characteristics of high frequency IGBT switching power device",
-            "short-name": "igbt-switching-power",
-            "repo": "https://github.com/virtual-labs/exp-igbt-switching-power-device-iitd",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Performance measurement and analysis of single phase AC-DC uncontrolled bridge rectifier with Capacitive filter",
-            "short-name": "uncontrolled-bridge-rectifier",
-            "repo": "https://github.com/virtual-labs/exp-uncontrolled-bridge-rectifier-with-capacitive-filter-iitd",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Performance measurement and analysis of single phase AC-DC controlled bridge rectifier with R and RL Load",
-            "short-name": "controlled-bridge-rectifier-rl",
-            "repo": "https://github.com/virtual-labs/exp-controlled-bridge-rectifier-with-r-and-rl-load-iitd",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Performance measurement and analysis of single phase AC-DC controlled bridge rectifier with different filters",
-            "short-name": "controlled-bridge-rectifier-different-filters",
-            "repo": "https://github.com/virtual-labs/exp-controlled-bridge-rectifier-with-different-filters-iitd",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Performance measurement and analysis of DC-DC buck regulator",
-            "short-name": "buck-regulator",
-            "repo": "https://github.com/virtual-labs/exp-buck-regulator-iitd",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Performance measurement and analysis of DC-DC boost regulator",
-            "short-name": "boost-regulator",
-            "repo": "https://github.com/virtual-labs/exp-boost-regulator-iitd",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Performance measurement and analysis of single phase AC voltage controller",
-            "short-name": "single-phase-ac-voltage",
-            "repo": "https://github.com/virtual-labs/exp-single-phase-ac-voltage-controller-iitd",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Performance measurement and analysis of isolated DC-DC push-pull regulator",
-            "short-name": "push-pull-regulator",
-            "repo": "https://github.com/virtual-labs/exp-push-pull-regulator-iitd",
-            "tag": "v1.0.0",
-            "deploy": true
-        },
-        {
-            "name": "Performance measurement and analysis of 1-phase IGBT inverter with sinusoidal PWM control",
-            "short-name": "sinusoidal-pwm-control",
-            "repo": "https://github.com/virtual-labs/exp-sinusoidal-pwm-control-iitd",
-            "tag": "v1.0.0",
-            "deploy": true
-        }
-    ],
-    "targetAudience": {
-        "UG": [
-            " B.E/B.Tech – (Electrical/ Electronics/Electrical Instrumentation and Allied Engineering streams"
-        ],
-        "PG": [
-            "M.E/M.S/M.Tech (Power Electronics/ Power Electronics and Drives/ Industrial Electronics/ Power and Industrial Drives/ Allied Engineering streams"
-        ]
+    {
+      "name": "Characteristics of high frequency IGBT switching power device",
+      "short-name": "igbt-switching-power",
+      "repo": "https://github.com/virtual-labs/exp-igbt-switching-power-device-iitd",
+      "tag": "v1.0.1",
+      "deploy": true
     },
-    "objective": "To supplement the Theory Course of Power Electronics with Simulation and Laboratory experiments.",
-    "courseAlignment": {
-        "description": "",
-        "universities": [
-            "Dept. of Electrical Engineering, National Institute of Technology Warangal",
-            "Dept. of Electrical Engineering, National Institute of Technology Calicut",
-            "Dept. of Electrical Engineering, National Institute of Technology Hamirpur",
-            "Dept. of Electrical Engineering, National Institute of Technology Kurkshetra",
-            "Dept. of Electrical Engineering, National Institute of Technology Warangal",
-            "JNT University",
-            "VR Siddhartha Engineering College"
-        ]
+    {
+      "name": "Performance measurement and analysis of single phase AC-DC uncontrolled bridge rectifier with Capacitive filter",
+      "short-name": "uncontrolled-bridge-rectifier",
+      "repo": "https://github.com/virtual-labs/exp-uncontrolled-bridge-rectifier-with-capacitive-filter-iitd",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Performance measurement and analysis of single phase AC-DC controlled bridge rectifier with R and RL Load",
+      "short-name": "controlled-bridge-rectifier-rl",
+      "repo": "https://github.com/virtual-labs/exp-controlled-bridge-rectifier-with-r-and-rl-load-iitd",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Performance measurement and analysis of single phase AC-DC controlled bridge rectifier with different filters",
+      "short-name": "controlled-bridge-rectifier-different-filters",
+      "repo": "https://github.com/virtual-labs/exp-controlled-bridge-rectifier-with-different-filters-iitd",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Performance measurement and analysis of DC-DC buck regulator",
+      "short-name": "buck-regulator",
+      "repo": "https://github.com/virtual-labs/exp-buck-regulator-iitd",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Performance measurement and analysis of DC-DC boost regulator",
+      "short-name": "boost-regulator",
+      "repo": "https://github.com/virtual-labs/exp-boost-regulator-iitd",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Performance measurement and analysis of single phase AC voltage controller",
+      "short-name": "single-phase-ac-voltage",
+      "repo": "https://github.com/virtual-labs/exp-single-phase-ac-voltage-controller-iitd",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Performance measurement and analysis of isolated DC-DC push-pull regulator",
+      "short-name": "push-pull-regulator",
+      "repo": "https://github.com/virtual-labs/exp-push-pull-regulator-iitd",
+      "tag": "v1.0.1",
+      "deploy": true
+    },
+    {
+      "name": "Performance measurement and analysis of 1-phase IGBT inverter with sinusoidal PWM control",
+      "short-name": "sinusoidal-pwm-control",
+      "repo": "https://github.com/virtual-labs/exp-sinusoidal-pwm-control-iitd",
+      "tag": "v1.0.1",
+      "deploy": true
     }
+  ],
+  "targetAudience": {
+    "UG": [
+      " B.E/B.Tech â (Electrical/ Electronics/Electrical Instrumentation and Allied Engineering streams"
+    ],
+    "PG": [
+      "M.E/M.S/M.Tech (Power Electronics/ Power Electronics and Drives/ Industrial Electronics/ Power and Industrial Drives/ Allied Engineering streams"
+    ]
+  },
+  "objective": "To supplement the Theory Course of Power Electronics with Simulation and Laboratory experiments.",
+  "courseAlignment": {
+    "description": "",
+    "universities": [
+      "Dept. of Electrical Engineering, National Institute of Technology Warangal",
+      "Dept. of Electrical Engineering, National Institute of Technology Calicut",
+      "Dept. of Electrical Engineering, National Institute of Technology Hamirpur",
+      "Dept. of Electrical Engineering, National Institute of Technology Kurkshetra",
+      "Dept. of Electrical Engineering, National Institute of Technology Warangal",
+      "JNT University",
+      "VR Siddhartha Engineering College"
+    ]
+  }
 }
