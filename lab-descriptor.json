@@ -84,13 +84,13 @@
   ],
   "targetAudience": {
     "UG": [
-      " B.E/B.Tech ÃÂ¢ÃÂÃÂ (Electrical/ Electronics/Electrical Instrumentation and Allied Engineering streams"
+      "Under Graduate students of B.E/B.Tech – (Electrical/ Electronics/Electrical Instrumentation and Allied Engineering streams)"
     ],
     "PG": [
-      "M.E/M.S/M.Tech (Power Electronics/ Power Electronics and Drives/ Industrial Electronics/ Power and Industrial Drives/ Allied Engineering streams"
+      "Post Graduate students of M.E/M.S/M.Tech (Power Electronics/ Power Electronics and Drives/ Industrial Electronics/ Power and Industrial Drives/ Allied Engineering streams)"
     ]
   },
-  "objective": "To supplement the Theory Course of Power Electronics with Simulation and Laboratory experiments.",
+  "objective": "To (i) develop fundamental understanding the functionality of various electronic switches used in power conversion, (ii) introduce different circuits used for the following power conversion schemes: AC-DC Rectification, DC-DC Conversion, DC-AC Inversion and AC-AC Conversion.",
   "courseAlignment": {
     "description": "",
     "universities": [
